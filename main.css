@@ -1,0 +1,75 @@
+/*gary = #707070
+blue = #003566
+yellow = #FFC300
+black = #000814
+Dark blue = #000814 */
+body{
+   background-color: #001D3D
+}
+ .title-tracker {
+    color: #FFC300;
+    background-color: #000814;
+    
+ }
+ .title_div {
+   padding: 10%;
+ }
+.darkcolor {
+   background-color: #000814;
+}
+.input{
+   width: 50%;
+}
+.center {
+   display: flex;
+   justify-content: center;
+}
+.center form {
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+.color {
+   background-color: #001D3D;
+}
+
+@media screen and (max-width: 800px) {
+   .hide-me {
+      display: none;
+   }
+ }
+
+ .my-footer {
+   margin-top: 5%;
+ }
+ #nickname {
+   color: #FFC300;
+   padding-top: 2%;
+ }
+ .no-border {
+   border-style:none ;
+ }
+ .down-side{
+   padding-right: 2%;
+   padding-left: 2%;
+ }
+ .up-side{
+   padding-left: 5%;
+   display: inline-block;
+ }
+ .card-text{
+   color: #FFC300;
+ }
+ .card-title{
+   color: #FFC300;
+ }
+ #color {
+   color: white ;
+ }
+ body::-webkit-scrollbar{
+   display: none;
+ }
+ .error {
+   color: white;
+   background-color: red;
+   padding-left: 2%;
+ }
