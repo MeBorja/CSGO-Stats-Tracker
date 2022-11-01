@@ -66,7 +66,7 @@ async function Api(id) {
     const response = await fetch(`https://public-api.tracker.gg/v2/csgo/standard/profile/steam/${id}`, { 
         method: "GET", 
         headers: {
-            "TRN-Api-Key": "b204fe92-b96c-44cb-a207-4656b28534e6"
+            "TRN-Api-Key": "f6c3fcec-97b7-4c33-9e74-efae670cc7e2"
           }
     })
     const json = await response.json()
